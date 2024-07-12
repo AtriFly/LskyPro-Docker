@@ -16,7 +16,7 @@ jobs:
 
       - name: Download and Unzip Upstream Source Code
         run: |
-          curl -OL https://github.com/AtriFly/lsky-pro/releases/download/2.4/lsky-pro-master.zip
+          curl -OL https://github.com/AtriFly/lsky-pro/archive/refs/heads/master.zip
           unzip *.zip
           mv ./lsky-pro-master/* ./
           mv ./lsky-pro-master/.env.example ./
